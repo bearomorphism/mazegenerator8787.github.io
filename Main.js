@@ -47,7 +47,7 @@ function setup() {
   createCanvas(800, 600);
   createP('');
   createElement('label', 'Speed');
-  slider = createSlider(1, 40, 10);
+  slider = createSlider(1, 60, 10);
 
   createP('');
   button = createButton('Reset');
