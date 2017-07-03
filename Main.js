@@ -27,7 +27,7 @@ function index(i, j) {
 }
 
 function reset() {
-  c = color(random(100,255), random(100,255), random(100,255), 150);
+  c = color(random(150,255), random(150,255), random(150,255), 150);
   grid = [];
   vis = [];
   len = parseInt(sel.value());
